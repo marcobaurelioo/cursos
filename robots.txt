@@ -1,0 +1,15 @@
+User-agent: *
+# Bloquear diretórios específicos que não devem ser indexados
+Disallow: /admin/
+Disallow: /login/
+Disallow: /private/
+
+# Bloquear URLs com parâmetros específicos, se necessário
+Disallow: /*?sessionid=
+Disallow: /*?token=
+
+# Permitir acesso a todas as outras páginas
+Allow: /
+
+# Sitemap (caso você tenha um sitemap.xml)
+Sitemap: https://pacoteonlinefamilia.com.br/sitemap.xml
