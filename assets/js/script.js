@@ -24,7 +24,7 @@
     });
 
     function adjustSrcBanners() {
-        const bannerName = ['Drop.jpg', 'Informatica.jpg', 'Inteligencias artificiais.jpg'];
+        const bannerName = ['Drop.jpg', 'Mesas resinadas.jpg', 'Informatica.jpg', 'Inteligencias artificiais.jpg'];
 
         let baseUrl = `assets/images/banners/${window.innerWidth > 800 ? 'lg' : 'sm'}/`;
 
