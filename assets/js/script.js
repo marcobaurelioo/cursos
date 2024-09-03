@@ -1,7 +1,7 @@
 (function ($) {
     "use strict";
 
-    document.addEventListener('touchstart', onTouchStart, {passive: true});
+
     const swiper = new Swiper('.swiper', {
         // Optional parameters
         direction: 'horizontal',
@@ -67,8 +67,5 @@
             delay: 3000,
         },
     });
-
-
-
 })(jQuery);
 
